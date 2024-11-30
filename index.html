@@ -63,7 +63,9 @@
       <section class="heroimage" id="heroimage">
         <div class="container hero-container">
           <h1 class="heroimage-title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!--Servies Section-->
@@ -445,5 +447,15 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open" data-modal>
+      <div class="modal">
+        <button class="modal-close-button" type="button" data-modal-close>
+          close
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
