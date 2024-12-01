@@ -580,6 +580,14 @@ a {
   margin-bottom: 16px;
 }
 
+.modal-form {
+  margin-bottom: 8px;
+}
+
+.input-container {
+  position: relative;
+}
+
 .label-item {
   font-size: 12px;
   line-height: 1.17;
