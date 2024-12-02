@@ -623,7 +623,7 @@ a {
   margin-bottom: 16px;
 }
 
-.person-icon.inpute-title:focus {
+.inpute-title:focus + .person-icon {
   fill: #4d5ae5;
 }
 
@@ -646,4 +646,8 @@ a {
 
 .comment-area:focus {
   border-color: #4d5ae5;
+}
+
+.confirmation-title {
+  margin-bottom: 24px;
 }
