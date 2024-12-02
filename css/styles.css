@@ -652,6 +652,17 @@ a {
   margin-bottom: 24px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .confirmation-title {
   font-size: 12px;
   line-height: 1.17;
@@ -671,16 +682,21 @@ a {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  cursor: pointer;
+  margin-right: 8px;
 }
 
-.confirmation-link {
-  color: #4d5ae5;
-}
-
-input[type="checkbox"]:checked + label > .checkbox-form {
+input[type="checkbox"]:checked + .confirmation-title > .checkbox-form {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.confirmation-link {
+  line-height: 1.4;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 
 .send-btn {
