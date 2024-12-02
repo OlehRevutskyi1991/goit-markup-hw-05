@@ -673,13 +673,14 @@ a {
   fill: transparent;
 }
 
-.pp-link {
+.confirmation-link {
   color: #4d5ae5;
 }
 
-input[type="checkbox"]:checked + .confirmation-title > .checkbox-form {
+input[type="checkbox"]:checked + label > .checkbox-form {
   background-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 
 .send-btn {
