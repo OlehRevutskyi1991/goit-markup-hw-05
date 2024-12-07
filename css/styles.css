@@ -643,6 +643,7 @@ a {
 
 .inpute-wrapper {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .label-item {
