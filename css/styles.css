@@ -498,6 +498,10 @@ a {
 
 /* footer-inpute */
 
+.footer-inpute {
+  margin-left: auto;
+}
+
 .footer-email-text {
   margin-bottom: 16px;
   font-weight: 500;
